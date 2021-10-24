@@ -1,0 +1,53 @@
+.job-title-job-image{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+.job-information{
+    h5 ,h6{
+        color: #444259;
+    }
+    h5{
+        @media only screen and (max-width:575.9px){
+            font-size: 18px ;
+        }
+    }
+
+}
+.job-time{
+    background-color:#EBEDF0;
+    color: black;
+    padding:3px 5px ;
+}
+.details-btn{
+
+    border: none;
+    color: white;
+    background-color: #444259;
+    padding:5px 10px;
+
+}
+.job-list{
+    background-color:#FFFFFF ;
+    padding: 10px 5px 25px 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    border-radius: 5px;
+    
+}
+.job-image{
+
+    width: 60px;
+    height: 60px;
+}
+
+.description-details-hide{
+
+    display: none;
+}
+.description-details{
+
+    display: block;
+}
+
+
